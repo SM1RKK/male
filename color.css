@@ -1,0 +1,1410 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+  background-color: rgba(126, 166, 212, 0.719);
+}
+
+.all img{
+  width: 300px;   
+  height: 400px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.all1 img{
+  width: 300px;   
+  height: 400px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.all2 img{
+  width: 300px;   
+  height: 400px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.all3 img{
+  width: 300px;   
+  height: 400px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.all4 img{
+  width: 300px;   
+  height: 400px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.all5 img{
+  width: 300px;   
+  height: 400px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.all6 img{
+  width: 300px;   
+  height: 400px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.heaven img{
+  border-radius: 20px;
+  width: 360px;
+  height: 220px;
+}
+
+.heaven1 img{
+  border-radius: 20px;
+  width: 360px;
+  height: 220px;
+}
+
+.heaven2 img{
+  border-radius: 20px;
+  width: 360px;
+  height: 220px;
+}
+
+.icon img{
+  width: 40px;
+  height: 40px;
+}
+
+.home img{
+  width: 80px;
+  height: 80px;
+}
+
+nav{
+  position: fixed;
+  background-color: rgba(64, 109, 255, 0.719);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100vh;
+  overflow:hidden;
+  /*padding-left: 4px;*/
+  box-sizing: border-box;
+  transition:1.5s;
+  z-index: 1;
+}
+
+nav:hover{
+  display: block;
+  width:280px;
+  transition:0.5s;
+  background-color: rgba(5, 74, 201, 0.719);
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+nav ul li{
+  font-family: 'Pacifico', cursive;
+}
+
+
+ /* nav ul li:nth-child(1){
+  border-left: 5px solid rgba(255, 64, 175, 0.719);
+
+}   */
+
+
+
+nav ul li a{
+  text-decoration: none;
+  color: #eee;
+  font-size:44px;
+  white-space: nowrap;
+  overflow:hidden;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+nav ul li a:hover{
+  display: block;
+  background-color: #968cc3;
+  transition: 1s;
+  color: rgb(0, 1, 53);
+}
+
+.fa-briefcase{
+  margin-left: 27px;
+}
+
+.fa-bug{
+  margin-left: 28px;
+}
+
+.fa-transgender-alt{
+  margin-left: 28px;
+}
+
+.fa-envelope-o{
+  margin-left: 29px;
+}
+
+.e123{
+  margin-left: 40px;
+}
+
+.e1234{
+  margin-left: 36px;
+}
+
+.ll{
+  font-size: 24px;
+  font-weight: 600;
+  background-color: rgba(23, 26, 194, 0.842);
+  height: 60px;
+  color:white;
+  line-height:50px;
+  text-align:center;
+  transition: 1.5s;
+  text-shadow: rgb(47, 0, 53) 3px 3px 1px ;
+}
+
+nav:hover .ll{
+  content: 'Female';
+  background-color: rgba(0, 151, 189, 0.719);
+  transition: 0.5s;
+  font-family: 'Pacifico', cursive;
+  z-index: 1;
+}
+
+.ll{
+  height: 60px;
+  font-family: 'Pacifico', cursive;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding: auto;
+  background-color: rgba(41, 32, 172, 0.719);
+}
+
+.con{
+  font-size: 32px;
+}
+
+.no{
+  font-size: 24px;
+  color: rgb(122, 122, 122);
+  padding-top: 150px;
+  left:auto;
+}
+
+.home{
+  position: absolute;
+  left: 1350px;
+  top: 30px;
+  position: fixed;
+  z-index: 1;
+  transition: all 0.5s;
+}
+
+.home:hover{
+  transform: scale(1.5);
+}
+
+.rein{
+  position: fixed;
+  font-size: 64px;
+  font-weight: 900;
+  margin-left: 280px;
+  color: rgb(255, 255, 255);
+  font-family: 'Yuji Hentaigana Akari', cursive;
+  animation-name: bbg;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  z-index: 1;
+}
+
+.rein::after{
+  position: fixed;
+  content: 'Reincarnation';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translate3d(3px, 3px, -3px);
+  color: rgba(0, 3, 189, 0.836);
+}
+
+.rein::before{
+  position: fixed;
+  content: 'Reincarnation';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translate3d(6px, 6px, -6px);
+  color: rgba(0, 13, 71, 0.884);
+}
+
+@keyframes bbg {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+span {
+  display: inline-block;
+}
+
+.rein.animate span {
+  animation-name: var(--animation);
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: var(--delay);
+}
+
+.all{
+  display: flex;
+  gap: 50px;
+}
+
+.cb1{
+  left: 130px;
+  top: 150px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.c{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(-180deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb1:hover .c{
+  transform: rotatey(0deg);
+}
+
+.b{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(0deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+  /* z-index: -1; */
+}
+
+.cb1:hover .b{
+  transform: rotatey(180deg);
+}
+
+.c::before{
+  position: fixed;
+  content: 'Career';
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: translate3d(3px, 3px, -3px);
+  color: rgba(99, 119, 230, 0.884);
+  transition:  transform 0.8s ease-in-out;
+}
+
+.cb2{
+  left: 130px;
+  top: 150px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb2:hover .c{
+  transform: rotatey(0deg);
+}
+
+.cb2:hover .b{
+  transform: rotatey(180deg);
+}
+
+.cb3{
+  left: 130px;
+  top: 150px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb3:hover .c{
+  transform: rotatey(0deg);
+}
+
+.cb3:hover .b{
+  transform: rotatey(180deg);
+}
+
+.cb4{
+  left: 130px;
+  top: 150px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb4:hover .c{
+  transform: rotatey(0deg);
+}
+
+.cb4:hover .b{
+  transform: rotatey(180deg);
+}
+
+
+
+
+
+
+
+.all1{
+  display: flex;
+  gap: 50px;
+}
+
+.cb11{
+  left: 130px;
+  top: 200px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.c1{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(-180deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb11:hover .c1{
+  transform: rotatey(0deg);
+}
+
+.b1{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(0deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb11:hover .b1{
+  transform: rotatey(180deg);
+}
+
+.c1::before{
+  position: fixed;
+  content: 'Career';
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: translate3d(3px, 3px, -3px);
+  color: rgba(99, 119, 230, 0.884);
+  transition:  transform 0.8s ease-in-out;
+}
+
+.cb21{
+  left: 130px;
+  top: 200px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb21:hover .c1{
+  transform: rotatey(0deg);
+}
+
+.cb21:hover .b1{
+  transform: rotatey(180deg);
+}
+
+.cb31{
+  left: 130px;
+  top: 200px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb31:hover .c1{
+  transform: rotatey(0deg);
+}
+
+.cb31:hover .b1{
+  transform: rotatey(180deg);
+}
+
+.cb41{
+  left: 130px;
+  top: 200px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb41:hover .c1{
+  transform: rotatey(0deg);
+}
+
+.cb41:hover .b1{
+  transform: rotatey(180deg);
+}
+
+
+
+
+
+.all2{
+  display: flex;
+  gap: 50px;
+}
+
+.cb12{
+  left: 130px;
+  top: 250px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.c2{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(-180deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb12:hover .c2{
+  transform: rotatey(0deg);
+}
+
+.b2{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(0deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb12:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.c2::before{
+  position: fixed;
+  content: 'Career';
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: translate3d(3px, 3px, -3px);
+  color: rgba(99, 119, 230, 0.884);
+  transition:  transform 0.8s ease-in-out;
+}
+
+.cb22{
+  left: 130px;
+  top: 250px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb22:hover .c2{
+  transform: rotatey(0deg);
+}
+
+.cb22:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb32{
+  left: 130px;
+  top: 250px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb32:hover .c2{
+  transform: rotatey(0deg);
+}
+
+.cb32:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb42{
+  left: 130px;
+  top: 250px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb42:hover .c2{
+  transform: rotatey(0deg);
+}
+
+.cb42:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.allcar{
+  position: relative;
+  display: flex;
+  top: 350px;
+  height: 300px;
+  left: 150px;
+  width: 1300px;
+  gap:80px;
+  border-radius: 20px;
+  background-color: rgba(205, 199, 255, 0.61);
+}
+
+.carwordtop{
+  font-size: 28px;
+  width: 500px;
+  padding-top: 15px; 
+  margin-left: 55px;
+  color: rgb(70, 69, 69);
+  font-family: 'Pacifico', cursive;
+}
+
+.carwor{
+  font-size: 18px;
+  width: 600px;
+  margin-left: 65px;
+  color: rgb(97, 97, 97);
+  font-family: 'Pacifico', cursive;
+}
+
+.line{
+  width: 5px;
+  height: 150px;
+  margin-top: 75px;
+  background-color: rgba(118, 120, 228, 0.719);
+  margin-left: 30px;
+}
+
+.heaven{
+  margin-left:10px;
+  border-radius: 20px;
+  margin-top: 38px;
+  animation-name: heaven;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes heaven{
+  0%,100%{
+    transform: rotate(10deg) scale(1);
+    opacity: 1;
+  }
+  50%{
+    transform: rotate(-5deg) scale(0.8);
+    opacity: 0.7;
+  }
+}
+
+
+
+
+
+.all3{
+  display: flex;
+  gap: 50px;
+}
+
+.cb13{
+  left: 130px;
+  top: 450px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.c4{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(-180deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb13:hover .c4{
+  transform: rotatey(0deg);
+}
+
+.b2{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(0deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb13:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.c4::before{
+  position: fixed;
+  content: 'Animal';
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: translate3d(3px, 3px, -3px);
+  color: rgba(99, 119, 230, 0.884);
+  transition:  transform 0.8s ease-in-out;
+}
+
+.cb23{
+  left: 130px;
+  top: 450px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb23:hover .c4{
+  transform: rotatey(0deg);
+}
+
+.cb23:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb33{
+  left: 130px;
+  top: 450px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb33:hover .c4{
+  transform: rotatey(0deg);
+}
+
+.cb33:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb43{
+  left: 130px;
+  top: 450px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb43:hover .c4{
+  transform: rotatey(0deg);
+}
+
+.cb43:hover .b2{
+  transform: rotatey(180deg);
+}
+
+
+
+
+.all4{
+  display: flex;
+  gap: 50px;
+}
+
+.cb14{
+  left: 130px;
+  top: 500px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.c4{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(-180deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb14:hover .c4{
+  transform: rotatey(0deg);
+}
+
+.b2{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(0deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb14:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.c4::before{
+  position: fixed;
+  content: 'Animal';
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: translate3d(3px, 3px, -3px);
+  color: rgba(99, 119, 230, 0.884);
+  transition:  transform 0.8s ease-in-out;
+}
+
+.cb24{
+  left: 130px;
+  top: 500px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb24:hover .c4{
+  transform: rotatey(0deg);
+}
+
+.cb24:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb34{
+  left: 130px;
+  top: 500px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb34:hover .c4{
+  transform: rotatey(0deg);
+}
+
+.cb34:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb44{
+  left: 130px;
+  top: 500px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb44:hover .c4{
+  transform: rotatey(0deg);
+}
+
+.cb44:hover .b2{
+  transform: rotatey(180deg);
+}
+
+
+
+.allcar1{
+  position: relative;
+  display: flex;
+  top: 600px;
+  height: 300px;
+  left: 150px;
+  width: 1300px;
+  gap:80px;
+  border-radius: 20px;
+  background-color: rgba(205, 199, 255, 0.61);
+}
+
+.carwordtop1{
+  font-size: 28px;
+  width: 500px;
+  padding-top: 15px; 
+  margin-left: 55px;
+  color: rgb(70, 69, 69);
+  font-family: 'Pacifico', cursive;
+}
+
+.carwor1{
+  font-size: 18px;
+  width: 600px;
+  margin-left: 10px;
+  color: rgb(97, 97, 97);
+  font-family: 'Pacifico', cursive;
+}
+
+.line1{
+  width: 5px;
+  height: 150px;
+  margin-top: 75px;
+  background-color: rgba(118, 120, 228, 0.719);
+  margin-left: 30px;
+}
+
+.carin{
+  margin-top: 30px;
+}
+
+.heaven1{
+  margin-left:65px;
+  border-radius: 20px;
+  margin-top: 38px;
+  animation-name: heaven1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes heaven1{
+  0%,100%{
+    opacity: 1;
+    transform: scale(1) rotate(-10deg);
+  }
+  50%{
+    opacity: 0.7;
+    transform: scale(0.8) rotate(5deg);
+  }
+}
+
+
+
+
+.all5{
+  display: flex;
+  gap: 50px;
+}
+
+.cb15{
+  left: 130px;
+  top: 700px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.c5{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(-180deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb15:hover .c5{
+  transform: rotatey(0deg);
+}
+
+.b2{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(0deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb15:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.c5::before{
+  position: fixed;
+  content: 'Spouse';
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: translate3d(3px, 3px, -3px);
+  color: rgba(99, 119, 230, 0.884);
+  transition:  transform 0.8s ease-in-out;
+}
+
+.cb25{
+  left: 130px;
+  top: 700px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb25:hover .c5{
+  transform: rotatey(0deg);
+}
+
+.cb25:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb35{
+  left: 130px;
+  top: 700px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb35:hover .c5{
+  transform: rotatey(0deg);
+}
+
+.cb35:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb45{
+  left: 130px;
+  top: 700px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb45:hover .c5{
+  transform: rotatey(0deg);
+}
+
+.cb45:hover .b2{
+  transform: rotatey(180deg);
+}
+
+
+
+
+.all6{
+  display: flex;
+  gap: 50px;
+}
+
+.cb16{
+  left: 130px;
+  top: 750px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.c6{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(-180deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb16:hover .c6{
+  transform: rotatey(0deg);
+}
+
+.b2{
+  text-align: center;
+  font-size: 48px;
+  line-height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(76, 63, 133, 0.822)  10px 10px 3px ;
+  position: absolute;
+  background-color: rgb(213, 240, 253);
+  transform: rotatey(0deg);
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.cb16:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.c6::before{
+  position: fixed;
+  content: 'Spouse';
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: translate3d(3px, 3px, -3px);
+  color: rgba(99, 119, 230, 0.884);
+  transition:  transform 0.8s ease-in-out;
+}
+
+.cb26{
+  left: 130px;
+  top: 750px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb26:hover .c6{
+  transform: rotatey(0deg);
+}
+
+.cb26:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb36{
+  left: 130px;
+  top: 750px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb36:hover .c6{
+  transform: rotatey(0deg);
+}
+
+.cb36:hover .b2{
+  transform: rotatey(180deg);
+}
+
+.cb46{
+  left: 130px;
+  top:750px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  perspective: 500px;
+  display: flex;
+}
+
+.cb46:hover .c6{
+  transform: rotatey(0deg);
+}
+
+.cb46:hover .b2{
+  transform: rotatey(180deg);
+}
+
+
+.allcar2{
+  position: relative;
+  display: flex;
+  top: 850px;
+  height: 300px;
+  left: 150px;
+  width: 1300px;
+  gap:80px;
+  border-radius: 20px;
+  background-color: rgba(205, 199, 255, 0.61);
+}
+
+.carwordtop2{
+  font-size: 28px;
+  width: 500px;
+  padding-top: 15px; 
+  margin-left: 55px;
+  color: rgb(70, 69, 69);
+  font-family: 'Pacifico', cursive;
+}
+
+.carwor2{
+  font-size: 18px;
+  width: 600px;
+  margin-left: 65px;
+  color: rgb(97, 97, 97);
+  font-family: 'Pacifico', cursive;
+}
+
+.line2{
+  width: 5px;
+  height: 150px;
+  margin-top: 75px;
+  background-color: rgba(118, 120, 228, 0.719);
+  margin-left: 30px;
+}
+
+.heaven2{
+  margin-left:10px;
+  border-radius: 20px;
+  margin-top: 38px;
+  animation-name: heaven;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes heaven2{
+  0%,100%{
+    transform: rotate(10deg) scale(1);
+    opacity: 1;
+  }
+  50%{
+    transform: rotate(-5deg) scale(0.8);
+    opacity: 0.7;
+  }
+}
+
+.row{
+  position: relative;
+  background-color: rgba(118, 120, 228, 0.719);
+  left: 100px;
+  width: 1400px;
+  top: 900px;
+  height: 5px;
+}
+
+.contact{
+  position: relative;
+  background-color: rgba(205, 199, 255, 0.61);
+  top: 950px;
+  left: 400px;
+  width: 800px;
+  height: 200px;
+  border-radius: 250px 250px 1500px 1500px;
+}
+
+.info{
+  text-align: center;
+  font-size: 28px;
+  color: rgb(70, 69, 69);
+  font-family: 'Pacifico', cursive;
+}
+
+.three{
+  position: relative;
+  left: 150px;
+  font-size: 18px;
+  color: rgb(97, 97, 97);
+  font-family: 'Pacifico', cursive;
+}
+
+.icon{
+  position: relative;
+  gap: 50px;
+  left: 250px;
+  top: 80px;
+}
+
+.threeicon{
+  display: flex;
+}
+
+.row1{
+  position: relative;
+  background-color: rgba(118, 120, 228, 0.719);
+  left: 100px;
+  width: 1400px;
+  top: 1000px;
+  height: 5px;
+}
+
+.foot{
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  width: 1400px;
+  height: 70px;
+  background: rgb(217, 233, 252);
+  top: 1000px;
+  left: 100px;
+}
+
